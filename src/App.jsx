@@ -5,7 +5,7 @@ import { createClient } from '@supabase/supabase-js';
 // SUPABASE CONFIGURATION - UPDATE THESE VALUES
 // ============================================
 const SUPABASE_URL = 'https://eqcfzrxfidzkkslxcbzl.supabase.co';
-const SUPABASE_ANON_KEY = 'sb_secret_1lHQIrBgUUoTAn1y_dbfXg_vsULt-94';
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVxY2Z6cnhmaWR6a2tzbHhjYnpsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njc2OTc1OTksImV4cCI6MjA4MzI3MzU5OX0.Ux-8UkzKHC4BskUoyq1m8FdMgmQ2_sy7OZ2BlvoxLB4';
 
 const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
